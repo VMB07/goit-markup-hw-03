@@ -1,0 +1,278 @@
+:root {
+  /*fonts*/
+  --main-fond: "Roboto", sans-serif;
+  --secondary-fond: "Raleway", sans-serif;
+  /*text-color*/
+  --grey-text-cl: #757575;
+  --black-text-cl: #212121;
+  --white-text-cl: #ffffff;
+  /*bg-color*/
+  --white-bg-cl: #e5e5e5;
+  --team-bg-cl: #f5f4fa;
+  --dark-bg-cl: #2f303a;
+  /*other*/
+  --accent-tx-cl: #2196f3;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  font-family: var(--main-fond);
+  color: var(--grey-text-cl);
+}
+
+/*reset-styles*/
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/*Base styless*/
+
+.conteiner {
+  width: 1600px;
+  padding-left: 215px;
+  padding-right: 215px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Header*/
+
+.header {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
+.header-conteiner {
+  display: flex;
+}
+
+.logo {
+  margin-right: 93px;
+  font-family: var(--secondary-fond);
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-black {
+  color: #000000;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-tx-cl);
+}
+
+.accent-color {
+  color: var(--accent-tx-cl);
+}
+
+.nav {
+  margin-right: 331px;
+}
+
+.nav-list {
+  display: flex;
+  color: var(--black-text-cl);
+}
+
+.nav-item {
+}
+
+.contact-list {
+  display: flex;
+}
+
+/*Section with btn*/
+
+.section {
+}
+
+.hero {
+  color: var(--white-text-cl);
+  background-color: var(--dark-bg-cl);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-cl);
+}
+
+/*button style*/
+
+.btn {
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  color: var(--white-text-cl);
+  background-color: var(--accent-tx-cl);
+  cursor: pointer;
+}
+
+/*Priority*/
+
+.priority {
+}
+
+.priority-list {
+}
+
+.priority-item {
+}
+
+.priority-title {
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--black-text-cl);
+}
+
+.priority-text {
+}
+
+/*About company*/
+
+.about {
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  color: var(--black-text-cl);
+}
+
+.about-list {
+}
+
+.about-item {
+}
+
+/*Team*/
+
+.team {
+  background-color: var(--team-bg-cl);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: var(--black-text-cl);
+}
+
+.post {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+}
+
+/*Footer*/
+
+.footer {
+  background-color: var(--dark-bg-cl);
+}
+
+.logo-white {
+  color: var(--white-text-cl);
+}
+
+.adress-item {
+  color: var(--white-text-cl);
+}
+
+.adress-item:hover,
+.adress-item:focus {
+  color: var(--accent-tx-cl);
+}
+
+.address {
+  font-style: inherit;
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-tx-cl);
+}
+
+/*Portfolio*/
+
+/*Portfulio nav*/
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-text-cl);
+  background-color: var(--accent-tx-cl);
+}
+
+.filter-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 /16);
+}
+
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
+  color: var(--black-text-cl);
+  background-color: var(--team-bg-cl);
+  cursor: pointer;
+}
+
+.accent-btn {
+  background-color: #2196f3;
+  color: var(--white-text-cl);
+}
+
+/*Portfolio img*/
+
+.portfolio-item {
+  
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--black-text-cl);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+}
