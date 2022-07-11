@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
 
+    <!--Modern normalize-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!--Font start-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,12 +26,6 @@
     />
 
     <!--Fond end-->
-
-    <!--Normolize start-->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!--Normolize end-->
 
     <link rel="stylesheet" href="./css/styless.css" />
   </head>
@@ -71,21 +75,20 @@
     <!--Main-->
 
     <main>
-      <!--Section with btn-->
-      
-        <section class="section hero">
-          <div class="conteiner">
+      <!--Section hero-->
+
+      <section class="section hero">
+        <div class="conteiner">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="btn" type="button">Заказать услугу</button>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!--Priority-->
 
-      
-        <section class="priority">
-          <div class="conteiner">
-          <h2 hidden>Преимущества</h2>
+      <section class="section priority">
+        <div class="conteiner">
+          <h2 class="visually-hidden">Преимущества</h2>
 
           <ul class="list priority-list">
             <li class="priority-item">
@@ -119,21 +122,19 @@
               </p>
             </li>
           </ul>
-          </div>
-        </section>
-      
+        </div>
+      </section>
 
       <!--About company -->
 
-      
-        <section class="about">
-          <div class="conteiner">
-          <h2 class="section-title">Чем мы занимаемся</h2>
+      <section class="section about">
+        <div class="conteiner">
+          <h2 class="about-title">Чем мы занимаемся</h2>
 
           <ul class="about-list list">
             <li class="about-item">
               <img
-                src="./imges/Section3/box1.jpg"
+                src="./imges/about photo/box1.jpg"
                 alt="Разработка сайта"
                 width="370"
                 height="294"
@@ -142,7 +143,7 @@
 
             <li class="about-item">
               <img
-                src="./imges/Section3/box2.jpg"
+                src="./imges/about photo/box2.jpg"
                 alt="Разработка мобильных преложений"
                 width="370"
                 height="294"
@@ -150,85 +151,90 @@
             </li>
             <li class="about-item">
               <img
-                src="./imges/Section3/box3.jpg"
+                src="./imges/about photo/box3.jpg"
                 alt="Графика"
                 width="370"
                 height="294"
               />
             </li>
           </ul>
-          </div>
-        </section>
-      
+        </div>
+      </section>
 
       <!--Team-->
 
-      
-        <section class="team">
-          <div class="conteiner">
-          <h2 class="section-title">Наша команда</h2>
+      <section class="section team">
+        <div class="conteiner">
+          <h2 class="team-title">Наша команда</h2>
 
-          <ul class="list">
-            <li>
+          <ul class="list team-list">
+            <li class="team-item">
               <img
-                src="./imges/Section4/photo1.jpg"
+                src="./imges/photo team/photo1.jpg"
                 alt="Дизайнер продукта"
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Игорь Демьяненко</h3>
-              <p class="post" lang="en">Product Designer</p>
+              <div class="team-wrapper">
+                <h3 class="team-name">Игорь Демьяненко</h3>
+                <p class="post" lang="en">Product Designer</p>
+              </div>
             </li>
 
             <li>
               <img
-                src="./imges/Section4/photo2.jpg"
+                src="./imges/photo team/photo2.jpg"
                 alt="Фронтенд-разработчик"
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Ольга Репина</h3>
-              <p class="post" lang="en">Frontend Developer</p>
+              <div class="team-wrapper">
+                <h3 class="team-name">Ольга Репина</h3>
+                <p class="post" lang="en">Frontend Developer</p>
+              </div>
             </li>
 
             <li>
               <img
-                src="./imges/Section4/photo3.jpg"
+                src="./imges/photo team/photo3.jpg"
                 alt="Маркетолог"
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Николай Тарасов</h3>
-              <p class="post" lang="en">Marketing</p>
+              <div class="team-wrapper">
+                <h3 class="team-name">Николай Тарасов</h3>
+                <p class="post" lang="en">Marketing</p>
+              </div>
             </li>
 
             <li>
               <img
-                src="./imges/Section4/photo4.jpg"
+                src="./imges/photo team/photo4.jpg"
                 alt="Дизайнер интерфейса"
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Михаил Ермаков</h3>
-              <p class="post" lang="en">UI Designer</p>
+              <div class="team-wrapper">
+                <h3 class="team-name">Михаил Ермаков</h3>
+                <p class="post" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
-          </div>
-        </section>
-      
+        </div>
+      </section>
     </main>
 
     <!--Footer-->
 
     <footer class="footer">
-      <div class="conteiner">
+      <div class="conteiner footer-conteiner">
         <a class="logo link" href="/"
           >Web<span class="logo-white">Studio</span></a
         >
 
         <address class="address">
           <ul class="list">
-            <li>
+            <li class="footer-item">
               <a
                 class="link adress-item"
                 href="https://goo.gl/maps/bs3cHrX6vN8yE2N99"
@@ -237,11 +243,11 @@
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
+            <li class="footer-item">
               <a class="link footer-contact" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
-            </li>
+            </li class="footer-item">
             <li>
               <a class="link footer-contact" href="tel:+380961111111"
                 >+38 096 111 11 11</a
