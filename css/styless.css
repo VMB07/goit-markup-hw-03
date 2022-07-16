@@ -145,8 +145,8 @@ img {
 .header-link {
   display: flex;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contact-list {
@@ -157,7 +157,8 @@ img {
 }
 
 .section {
- margin-bottom: 94px;
+ padding-top: 94px;
+ padding-bottom: 94px;
 }
 
 /*Section hero*/
@@ -168,7 +169,6 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -204,6 +204,7 @@ img {
 /*Priority*/
 
 .priority {
+  padding-bottom: 0
 }
 
 .card-set {
@@ -330,7 +331,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-btn {
@@ -358,17 +359,11 @@ img {
 }
 
 .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  gap: 30px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
 .portfolio-item {
-  
+  --items: 9:
 }
 
 .portfolio-link {
